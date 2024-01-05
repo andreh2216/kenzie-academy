@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kenzie Voce Programador</title>
+    <style>
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 100vh;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    background-color: white;
+}
+header > nav > ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    
+
+}
+
+
+li{
+    padding: 20px;
+    font-size: 13px;
+}
+li:hover{
+    border-bottom: 1px solid blue;
+    border-width: 5px;
+    
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    height:100% ;
+    width: fit-content;
+    margin-right: 0;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+.btn > a{
+    color: white;
+}
+
+img{
+    margin-left: 6px;
+}
+
+
+
+.container-1{
+    color: white;
+    display: block;
+    align-items: center;
+
+   
+}
+.container-1 > h2{
+
+margin-top: 100px;
+margin-left: 20px;
+font-size: 35px;
+
+}
+
+.container-1 > p{
+
+margin-top: 18px;
+margin-left: 20px;
+font-size: 25px;
+
+}
+
+
+.container-1 > .btn{
+    margin-top: 18px;
+margin-left: 20px;
+font-size: 25px;
+ background-color: black;
+ border: 2px solid white;
+width: fit-content;
+
+}
+ 
+.container-1 > .btn> a {
+    color: white;
+} 
+
+.container-1 > .btn:hover{
+    background-color: blue;
+    border: none;
+    border-radius: 4px solid blue;
+}
+
+
+
+.spco >.img{
+    height: 200px;
+    background-image: url(plano-de-fundo-de-programacao-com-pessoa-trabalhando-com-codigos-no-computador.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 100px;
+    width: 600px;
+}
+.horas{
+    display: flex;
+    margin-left: 20px;
+    width: 100px;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+    color: black;
+    margin-top: 3px;
+    border: 1px solid blue;
+    border-radius: 4px;
+}
+ </style>
+</head>
+<body>
+            <header>
+                <h1>KENZIE</h1>
+                <nav>
+                    <ul>
+                        <a href=""><li>QUEM SOMOS</li></a>
+                        <a href=""><li>FORMAÇÃO</li></a>
+                        <a href=""><li>PAGAMENTO</li></a>
+                        <a href=""><li>PARA EMPRESAS</li></a>
+                        <a href=""><li>DÚVIDAS</li></a>
+                        <a href=""><li>BLOG</li></a>
+                        <a href=""><li>CONTÉUDOS GRATUITOS</li></a>
+                    </ul>
+                </nav>
+                <div class="btn">
+                   <a href="">QUERO SER UM PROGRAMADOR</a>
+                    <img src="right-arrow_545682.png" width="50px">
+                </div>
+            </header>
+            <div class="spco">
+            <div class="container-1">
+            <h2>APRENDA DO ZERO <br>COM NOSSA FORMAÇÃO <br>EM PROGRAMAÇÃO</h2>
+            <p>Você não precisa ter conhecimento prévio, <br>conta com oportunidades de pagamento <br> acessíveis e pode assistir as aulas ao vivo <br> ou gravadas, no horário que preferir.</p>
+            <div class="btn">
+                <a href="">QUERO SER UM PROGRAMADOR(A)</a>
+                 <img src="right-arrow_545682.png" width="50px">
+             </div>
+             
+             <div class="horas">
+             <div id="hora">s</div>
+             <div id="minuto">s</div>
+             <div id="segundo">s</div>
+
+            </div>
+            <div class="img" style="display: none;"></div>
+
+        </div>
+
+        <script src="index.js"> </script>
+   
+</body>
+</html>
